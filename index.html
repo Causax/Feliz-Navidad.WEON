@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad Video</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: url('C:/Users/Usuario/Downloads/navidad 2.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        #content {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <button onclick="mostrarVideo()">¡Abrir Regalo!</button>
+    </div>
+
+    <script>
+        function mostrarVideo() {
+            window.location.href = 'C:/Users/Usuario/Downloads/navidad.mp4';
+        }
+    </script>
+</body>
+</html>
